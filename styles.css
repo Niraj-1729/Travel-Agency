@@ -367,3 +367,44 @@ nav {
   margin-inline: auto;
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
 }
+
+.swiper {
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.swiper-slide {
+  max-width: 300px;
+}
+
+.customer__card {
+  position: relative;
+  isolation: isolate;
+}
+
+.customer__image {
+  border-radius: var(--border-radius);
+}
+
+.customer__user {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 60px;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.customer__card__content {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  width: calc(100% - 2rem);
+  padding: 1rem;
+  font-weight: 500;
+  color: var(--text-dark);
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 1.25rem;
+}
